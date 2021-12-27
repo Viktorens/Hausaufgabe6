@@ -1,0 +1,29 @@
+.parent {
+    -fx-background-color: #f5f5f5
+}
+
+.sidebar {
+    -fx-background-color: gray
+}
+
+.bt {
+    -fx-background-color: #252525;
+    margin: 2em;
+    padding: 8px;
+}
+
+.bt:hover {
+    -fx-background-color: #A9A9A9;
+}
+
+.choice-box {
+    -fx-background-color: black;
+    -fx-mark-color: orange;
+    -fx-min-width: 200px;
+    -fx-min-height: 30px;
+}
+
+.choice-box > .label {
+    -fx-text-fill: white;
+}
+
